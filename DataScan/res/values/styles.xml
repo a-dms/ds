@@ -1,0 +1,47 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#565656</item>
+    </style>
+
+    <style name="titlebar" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <style name="titlebutton">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="lefttitlebutton" parent="titlebutton">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="righttitlebutton" parent="titlebutton">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+    
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnChooseTemplate"
+        style="@style/lefttitlebutton"
+        android:onClick="clickChooseTemplate"
+        android:text="@string/btn_choose_template" />
+
+    <Button
+        android:id="@+id/btnSaveTemplateColumn"
+        style="@style/righttitlebutton"
+        android:onClick="clickSave"
+        android:text="@string/btn_save" />
+
+</RelativeLayout>

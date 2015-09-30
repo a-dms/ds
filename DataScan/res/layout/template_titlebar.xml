@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnRefreshTemplateList"
+        style="@style/lefttitlebutton"
+        android:onClick="clickRefresh"
+        android:text="@string/btn_refresh_template_list" />
+
+</RelativeLayout>

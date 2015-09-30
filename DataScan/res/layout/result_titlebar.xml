@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnBack1"
+        style="@style/lefttitlebutton"
+        android:onClick="clickBack"
+        android:text="@string/btn_back" />
+
+    <Button
+        android:id="@+id/btnSave1"
+        style="@style/righttitlebutton"
+        android:onClick="clickSave"
+        android:text="@string/btn_save" />
+
+</RelativeLayout>

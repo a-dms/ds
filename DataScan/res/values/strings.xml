@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataScan</string>
+    <string name="welcome">欢迎使用快速数据扫描录入系统！</string>
+    <string name="menu_settings">Settings</string>
+    <string name="choose_template">请选择文件模板</string>
+    <string name="template_list">模板列表</string>
+    <string name="title_activity_template">TemplateActivity</string>
+    <string name="title_activity_template_column">TemplateColumnActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_input">HomeInputActivity</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_search">查找</string>
+    <string name="btn_scan">扫描</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="comment">评价</string>
+    <string name="data">数值</string>
+    <string name="btn_input_barcode">输入条码</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_choose_template">重选模板</string>
+    <string name="btn_refresh_template_list">刷新列表</string>
+    <string name="loading">Loading</string>
+    <string name="title_activity_expire">ExpireActivity</string>
+    <string name="expire">应用已到期!</string>
+    <string name="exit">退出应用</string>
+
+</resources>

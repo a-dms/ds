@@ -1,0 +1,55 @@
+# view AndroidManifest.xml #generated:49
+-keep class org.caas.datascan.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class org.caas.datascan.ExpireActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class org.caas.datascan.HomeInputActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class org.caas.datascan.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class org.caas.datascan.ResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class org.caas.datascan.TemplateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class org.caas.datascan.TemplateColumnActivity { <init>(...); }
+
+# view res/layout/result_activity.xml #generated:16
+-keep class org.caas.datascan.UnscrollableListView { <init>(...); }
+
+# view res/layout/capture_activity.xml #generated:12
+-keep class org.caas.zxing.view.ViewfinderView { <init>(...); }
+
+# onClick res/layout/result_titlebar.xml #generated:8
+-keepclassmembers class * { *** clickBack(...); }
+
+# onClick res/layout/capture_titlebar.xml #generated:8
+# onClick res/layout/home_input_titlebar.xml #generated:8
+# onClick res/layout/main_activity.xml #generated:25
+# onClick res/layout/template_column_titlebar.xml #generated:8
+-keepclassmembers class * { *** clickChooseTemplate(...); }
+
+# onClick res/layout/expire_activity.xml #generated:16
+-keepclassmembers class * { *** clickExit(...); }
+
+# onClick res/layout/home_input_activity.xml #generated:30
+-keepclassmembers class * { *** clickFindInTemplate(...); }
+
+# onClick res/layout/capture_titlebar.xml #generated:14
+-keepclassmembers class * { *** clickInputBarcode(...); }
+
+# onClick res/layout/template_titlebar.xml #generated:8
+-keepclassmembers class * { *** clickRefresh(...); }
+
+# onClick res/layout/result_titlebar.xml #generated:14
+# onClick res/layout/template_column_titlebar.xml #generated:14
+-keepclassmembers class * { *** clickSave(...); }
+
+# onClick res/layout/home_input_titlebar.xml #generated:14
+-keepclassmembers class * { *** clickScan(...); }
+
