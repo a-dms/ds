@@ -27,4 +27,14 @@
   <color name="viewfinder_mask">#60000000</color>
   <color name="header">#58567D</color>
   <color name="grgray">#686868</color>
+    <!-- colors -->
+    <color name="white">#ffffff</color>
+    <color name="red">#f85050</color>
+    <color name="dark_red">#df3e3e</color>
+    <color name="blue_black">#18536a</color>
+    <color name="dark_blue">#457b93</color>
+    <color name="light_blue">#589ebc</color>
+    <color name="page_background">#ececec</color>
+    <color name="green">#3fa716</color>
+    <color name="orange">#eca744</color>  
 </resources>

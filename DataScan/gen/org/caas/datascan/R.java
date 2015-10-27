@@ -12,13 +12,21 @@ public final class R {
     }
     public static final class color {
         public static final int bg_color=0x7f050000;
+        public static final int blue_black=0x7f05001e;
         public static final int contents_text=0x7f050001;
+        public static final int dark_blue=0x7f05001f;
+        public static final int dark_red=0x7f05001d;
         public static final int encode_view=0x7f050002;
+        public static final int green=0x7f050022;
         public static final int grgray=0x7f05001a;
         public static final int header=0x7f050019;
         public static final int help_button_view=0x7f050003;
         public static final int help_view=0x7f050004;
+        public static final int light_blue=0x7f050020;
+        public static final int orange=0x7f050023;
+        public static final int page_background=0x7f050021;
         public static final int possible_result_points=0x7f050005;
+        public static final int red=0x7f05001c;
         public static final int result_image_border=0x7f050006;
         public static final int result_minor_text=0x7f050007;
         public static final int result_points=0x7f050008;
@@ -38,8 +46,12 @@ public final class R {
         public static final int viewfinder_frame=0x7f050016;
         public static final int viewfinder_laser=0x7f050017;
         public static final int viewfinder_mask=0x7f050018;
+        /**  colors 
+         */
+        public static final int white=0x7f05001b;
     }
     public static final class dimen {
+        public static final int WelcomeFontSize=0x7f060005;
         /**  Default screen margins, per the Android Design guidelines. 
 
          Example customization of dimensions originally defined in res/values/dimens.xml
@@ -49,10 +61,16 @@ public final class R {
          */
         public static final int activity_horizontal_margin=0x7f060000;
         public static final int activity_vertical_margin=0x7f060001;
+        public static final int button_height=0x7f060002;
+        public static final int list_item_content_text=0x7f060004;
+        public static final int login_btn_margin_top=0x7f060003;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int navbar=0x7f020001;
+        public static final int bg_login_btn_default=0x7f020000;
+        public static final int bg_login_btn_pressed=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int login_button=0x7f020003;
+        public static final int navbar=0x7f020004;
     }
     public static final class id {
         public static final int action_settings=0x7f070028;
