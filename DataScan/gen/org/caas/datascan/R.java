@@ -69,15 +69,18 @@ public final class R {
         public static final int login_btn_margin_top=0x7f060003;
     }
     public static final class drawable {
-        public static final int bg_login_btn_default=0x7f020000;
-        public static final int bg_login_btn_pressed=0x7f020001;
-        public static final int ic_back=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int login_button=0x7f020004;
-        public static final int navbar=0x7f020005;
+        public static final int bg_edittext_default=0x7f020000;
+        public static final int bg_edittext_focused=0x7f020001;
+        public static final int bg_login_btn_default=0x7f020002;
+        public static final int bg_login_btn_pressed=0x7f020003;
+        public static final int edittext=0x7f020004;
+        public static final int ic_back=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int login_button=0x7f020007;
+        public static final int navbar=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f070029;
+        public static final int action_settings=0x7f07002a;
         /**  Messages IDs 
          */
         public static final int auto_focus=0x7f070000;
@@ -86,13 +89,13 @@ public final class R {
         public static final int btnChooseTemplate1=0x7f07000e;
         public static final int btnExit=0x7f070011;
         public static final int btnFindInTemplate=0x7f070014;
-        public static final int btnRefreshTemplateList=0x7f070028;
+        public static final int btnRefreshTemplateList=0x7f070029;
         public static final int btnSave1=0x7f070022;
-        public static final int btnSaveTemplateColumn=0x7f070027;
+        public static final int btnSaveTemplateColumn=0x7f070028;
         public static final int btnScan=0x7f070016;
         public static final int btnSearch=0x7f07000f;
         public static final int buttonChooseTemplate=0x7f070019;
-        public static final int chkColumnChoose=0x7f070026;
+        public static final int chkColumnChoose=0x7f070027;
         public static final int decode=0x7f070001;
         public static final int decode_failed=0x7f070002;
         public static final int decode_succeeded=0x7f070003;
@@ -104,14 +107,15 @@ public final class R {
         public static final int launch_product_query=0x7f070006;
         public static final int listViewColumnData=0x7f07001a;
         public static final int listViewTemplate=0x7f070023;
-        public static final int listViewTemplateColumn=0x7f070024;
+        public static final int listViewTemplateColumn=0x7f070025;
         public static final int preview_view=0x7f07000c;
         public static final int quit=0x7f070007;
-        public static final int rdoColumnScan=0x7f070025;
+        public static final int rdoColumnScan=0x7f070026;
         public static final int restart_preview=0x7f070008;
         public static final int return_scan_result=0x7f070009;
         public static final int search_book_contents_failed=0x7f07000a;
         public static final int search_book_contents_succeeded=0x7f07000b;
+        public static final int templateTitle=0x7f070024;
         public static final int textView1=0x7f070010;
         public static final int textViewLoading=0x7f070018;
         public static final int textViewWelcome=0x7f070017;
@@ -160,12 +164,15 @@ public final class R {
         public static final int btn_scan=0x7f08000b;
         public static final int btn_search=0x7f08000a;
         public static final int choose_template=0x7f080003;
+        public static final int column_name=0x7f080017;
         public static final int comment=0x7f08000d;
         public static final int data=0x7f08000e;
+        public static final int display_column=0x7f080019;
         public static final int exit=0x7f080016;
         public static final int expire=0x7f080015;
         public static final int loading=0x7f080013;
         public static final int menu_settings=0x7f080002;
+        public static final int scan_column=0x7f080018;
         public static final int template_list=0x7f080004;
         public static final int title_activity_expire=0x7f080014;
         public static final int title_activity_home_input=0x7f080008;
@@ -208,6 +215,7 @@ public final class R {
          */
         public static final int AppTheme=0x7f090001;
         public static final int CustomWindowTitleBackground=0x7f090002;
+        public static final int edittext_style=0x7f090007;
         public static final int lefttitlebutton=0x7f090005;
         public static final int righttitlebutton=0x7f090006;
         public static final int titlebar=0x7f090003;

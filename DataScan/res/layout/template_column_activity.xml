@@ -8,13 +8,38 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="org.caas.datascan.TemplateColumnActivity" >
 
+    <LinearLayout
+        android:id="@+id/templateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/column_name" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/scan_column" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/display_column" />
+    </LinearLayout>
+
     <ListView
         android:id="@+id/listViewTemplateColumn"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_below="@id/textViewWelcome" >
+        android:layout_below="@id/templateTitle" >
     </ListView>
 
 </RelativeLayout>
