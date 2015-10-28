@@ -30,7 +30,7 @@
         android:layout_alignLeft="@+id/textViewWelcome"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/textViewWelcome"
-        android:layout_marginBottom="77dp"
+        android:layout_marginBottom="117dp"
         android:background="@drawable/login_button"
         android:onClick="clickChooseTemplate"
         android:text="@string/choose_template"

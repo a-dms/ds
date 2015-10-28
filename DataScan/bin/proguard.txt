@@ -30,26 +30,26 @@
 
 # onClick res/layout/capture_titlebar.xml #generated:8
 # onClick res/layout/home_input_titlebar.xml #generated:8
-# onClick res/layout/main_activity.xml #generated:25
+# onClick res/layout/main_activity.xml #generated:26
 # onClick res/layout/template_column_titlebar.xml #generated:8
 -keepclassmembers class * { *** clickChooseTemplate(...); }
 
-# onClick res/layout/expire_activity.xml #generated:16
+# onClick res/layout/expire_activity.xml #generated:17
 -keepclassmembers class * { *** clickExit(...); }
 
 # onClick res/layout/home_input_activity.xml #generated:30
 -keepclassmembers class * { *** clickFindInTemplate(...); }
 
-# onClick res/layout/capture_titlebar.xml #generated:14
+# onClick res/layout/capture_titlebar.xml #generated:15
 -keepclassmembers class * { *** clickInputBarcode(...); }
 
 # onClick res/layout/template_titlebar.xml #generated:8
 -keepclassmembers class * { *** clickRefresh(...); }
 
-# onClick res/layout/result_titlebar.xml #generated:14
-# onClick res/layout/template_column_titlebar.xml #generated:14
+# onClick res/layout/result_titlebar.xml #generated:15
+# onClick res/layout/template_column_titlebar.xml #generated:15
 -keepclassmembers class * { *** clickSave(...); }
 
-# onClick res/layout/home_input_titlebar.xml #generated:14
+# onClick res/layout/home_input_titlebar.xml #generated:17
 -keepclassmembers class * { *** clickScan(...); }
 

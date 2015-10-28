@@ -9,16 +9,22 @@
     tools:context="org.caas.datascan.ExpireActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/expire" />
 
-     <Button
+    <Button
         android:id="@+id/btnExit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="88dp"
-        android:text="@string/exit" 
-        android:onClick="clickExit"/>
+        android:layout_marginTop="131dp"
+        android:background="@drawable/login_button"
+        android:onClick="clickExit"
+        android:text="@string/exit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/header_text_font_size" />
+
 </RelativeLayout>

@@ -23,6 +23,6 @@
     <string name="loading">Loading</string>
     <string name="title_activity_expire">ExpireActivity</string>
     <string name="expire">应用已到期!</string>
-    <string name="exit">退出应用</string>
+    <string name="exit"> 退出应用 </string>
 
 </resources>

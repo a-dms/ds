@@ -9,6 +9,7 @@
         android:id="@+id/btnRefreshTemplateList"
         style="@style/lefttitlebutton"
         android:onClick="clickRefresh"
-        android:text="@string/btn_refresh_template_list" />
+        android:text="@string/btn_refresh_template_list" 
+        android:background="@drawable/login_button"/>
 
 </RelativeLayout>

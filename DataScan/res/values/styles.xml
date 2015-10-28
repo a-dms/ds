@@ -18,7 +18,7 @@
     </style>
 
     <style name="CustomWindowTitleBackground">
-        <item name="android:background">#565656</item>
+        <item name="android:background">#00bcd5</item>
     </style>
 
     <style name="titlebar" parent="android:Theme.Light">
@@ -43,5 +43,7 @@
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:layout_marginRight">15dp</item>
     </style>
+    
+    
     
 </resources>

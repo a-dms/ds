@@ -9,12 +9,14 @@
         android:id="@+id/btnBack1"
         style="@style/lefttitlebutton"
         android:onClick="clickBack"
-        android:text="@string/btn_back" />
+        android:text="@string/btn_back" 
+        android:background="@drawable/login_button"/>
 
     <Button
         android:id="@+id/btnSave1"
         style="@style/righttitlebutton"
         android:onClick="clickSave"
-        android:text="@string/btn_save" />
+        android:text="@string/btn_save" 
+        android:background="@drawable/login_button"/>
 
 </RelativeLayout>

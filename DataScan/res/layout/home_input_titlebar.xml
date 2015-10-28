@@ -5,16 +5,22 @@
     android:layout_gravity="center_vertical"
     android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/btnChooseTemplate"
-        style="@style/lefttitlebutton"
-        android:onClick="clickChooseTemplate"
-        android:text="@string/btn_choose_template" />
+              <Button
+                  android:id="@+id/btnChooseTemplate"
+                  style="@style/lefttitlebutton"
+                  android:background="@drawable/login_button"
+                  android:onClick="clickChooseTemplate"
+                  android:text="@string/btn_choose_template"
+                  android:textColor="@color/white"
+                />
 
-    <Button
-        android:id="@+id/btnScan"
-        style="@style/righttitlebutton"
-        android:onClick="clickScan"
-        android:text="@string/btn_scan" />
-
+              <Button
+                  android:id="@+id/btnScan"
+                   style="@style/righttitlebutton"
+                  android:background="@drawable/login_button"
+                  android:onClick="clickScan"
+                  android:text="@string/btn_scan"
+                  android:textColor="@color/white"
+                 />
+      
 </RelativeLayout>

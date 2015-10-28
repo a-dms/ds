@@ -37,4 +37,6 @@
     <color name="page_background">#ececec</color>
     <color name="green">#3fa716</color>
     <color name="orange">#eca744</color>  
+    <color name="actionbar_background">#303f9f</color>
+<color name="actionbar_text">#ffffff</color>
 </resources>

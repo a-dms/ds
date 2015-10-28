@@ -9,12 +9,14 @@
         android:id="@+id/btnChooseTemplate1"
         style="@style/lefttitlebutton"
         android:onClick="clickChooseTemplate"
-        android:text="@string/btn_choose_template" />
+        android:text="@string/btn_choose_template" 
+        android:background="@drawable/login_button"/>
 
     <Button
         android:id="@+id/btnSearch"
         style="@style/righttitlebutton"
         android:onClick="clickInputBarcode"
-        android:text="@string/btn_input_barcode" />
+        android:text="@string/btn_input_barcode" 
+        android:background="@drawable/login_button"/>
 
 </RelativeLayout>
