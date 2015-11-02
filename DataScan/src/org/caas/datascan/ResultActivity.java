@@ -103,10 +103,10 @@ public class ResultActivity extends Activity {
 			}
 			
 			if (Global.templateColumnNames.size() <= Global.originalFieldCount) {
-				Global.templateColumnNames.add("scan date");
-				Global.templateColumnNames.add("scan counts");
-				Global.templateColumnNames.add("data");
-				Global.templateColumnNames.add("comment");
+				Global.templateColumnNames.add(Global.ADD_DATE);
+				Global.templateColumnNames.add(Global.ADD_COUNT);
+				Global.templateColumnNames.add(Global.ADD_DATA);
+				Global.templateColumnNames.add(Global.ADD_COMMENT);
 			}
 			
 			Writer writer = new OutputStreamWriter(new FileOutputStream(Global.templateFile));

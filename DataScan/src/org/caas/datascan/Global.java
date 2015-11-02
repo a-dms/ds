@@ -16,6 +16,12 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 public class Global {
+	
+	public final static String ADD_DATA = "ADDED DATA";
+	public final static String ADD_COMMENT = "ADDED COMMENT";
+	public final static String ADD_DATE = "ADDED DATE";
+	public final static String ADD_COUNT = "ADDED COUNT";
+	
 	public static File templateFile = null;
 	
 	public static List<String> templateColumnNames;
