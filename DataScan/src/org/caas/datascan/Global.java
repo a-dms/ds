@@ -107,8 +107,13 @@ public class Global {
 				displayFields[i] = (displayItem.charAt(i) == 'T');				
 			}
 		} else {
-			char [] a = new char[templateColumnNames.size()];
-			originalFieldCount = templateColumnNames.size();
+			originalFieldCount = 0; 
+			if (templateColumnNames.contains(Global.ADD_DATE)) {
+				originalFieldCount = templateColumnNames.size() - 4;
+			} else {
+				originalFieldCount = templateColumnNames.size();
+			}
+			char [] a = new char[originalFieldCount];
 			Arrays.fill(a, 'F');
 			db.execSQL("INSERT INTO t_file VALUES (?, ?, ?, 0, ?)", new Object[]{templateFile.getName(), templateFile.lastModified(), originalFieldCount, String.valueOf(a)});  
 		}
